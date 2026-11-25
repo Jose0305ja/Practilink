@@ -8,17 +8,23 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 32px 16px;
       background: #f4f6fb;
       color: #1f2937;
     }
     main {
-      max-width: 640px;
-      padding: 32px;
+      max-width: 720px;
+      margin: 0 auto;
       text-align: center;
+    }
+    .banner {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: #ffffff;
+      border-radius: 12px;
+      padding: 32px 16px;
+      margin-bottom: 32px;
+      font-size: 1.3rem;
+      font-weight: bold;
     }
     h1 {
       font-size: 3rem;
@@ -37,10 +43,24 @@
       font-weight: bold;
       color: #2563eb;
     }
+    section {
+      margin-top: 40px;
+      text-align: left;
+    }
+    section h3 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    ul {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
   </style>
 </head>
 <body>
   <main>
+    <div class="banner">Alumnos UTD + Empresas de Durango = Prácticas ideales</div>
+
     <h1>Practilink</h1>
     <h2>Tu próxima práctica empieza aquí</h2>
     <p>
@@ -52,6 +72,21 @@
     <p class="invitacion">
       Conoce Practilink y encuentra la empresa ideal para tus prácticas.
     </p>
+
+    <section>
+      <h3>¿Por qué usar Practilink?</h3>
+      <p>
+        Hoy los alumnos buscan empresa a ciegas, con conocidos o en grupos de
+        redes sociales. Practilink reúne todo en un solo lugar para que
+        encuentres tu práctica más rápido y en algo que sí tenga que ver con
+        tu carrera.
+      </p>
+      <ul>
+        <li><strong>Ahorra tiempo:</strong> todas las vacantes de prácticas y estadías están centralizadas.</li>
+        <li><strong>Recomendaciones a tu medida:</strong> el sistema compara tus habilidades con lo que pide cada vacante.</li>
+        <li><strong>Opiniones reales:</strong> lee reseñas de exalumnos antes de aplicar.</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
